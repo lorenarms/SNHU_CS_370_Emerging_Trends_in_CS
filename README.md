@@ -49,6 +49,10 @@ In order to run the projects above (and any others here in the repo) you will ne
 </p>
 
 <p>
+  In addition to the above coding projects there were a variety of written assignments and "white paper" projects to submit. You can find them <a href="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/tree/main/writeups" target="_blank"> in this folder </a>, along with some information about the requirements for each.
+</p>
+
+<p>
   Feel free check out my entire <a href="https://www.youtube.com/channel/UCGtp8PRHgPCQHYoSxbMST8A" target="_blank">YouTube channel</a> for more videos about coding projects I've done.</p>
 <p>Also, please check out my <a href="http://artllj.com" target="_blank">Personal Website</a> for more information about me, and my <a href="https://www.linkedin.com/in/lorenarms95/" target="_blank">LinkedIn</a> to get additional information. </p>
 <h3>Thanks for stopping by!</h3>
