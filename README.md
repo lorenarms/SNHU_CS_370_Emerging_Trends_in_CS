@@ -31,7 +31,7 @@ This course covers the following competencies, which represent the knowledge and
 <div>
     <img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/solved.png" atl="[start]" style="width:200px;height:200px;">
 </div>
-<p>The pirate treasure hunt game was a fun project to work on. This involved developing a Q-learning algorithm with a neural network to find the shortest path to the "treasure" before the pirate got there. The project was run in python with Keras, and the starting and ending grids can be seen below. For more information about what this problem entails check out<a href="https://gotensor.com/2019/10/02/q-learning-an-introduction-through-a-simple-table-based-implementation-with-learning-rate-discount-factor-and-exploration/" target="_blank"> this article</a> about it. My solution can be found in the link above.</p>
+<p>The pirate treasure hunt game was a fun project to work on. This involved developing a Q-learning algorithm with a neural network to find the shortest path to the "treasure". The "pirate" agent starts at the upper left corner of the maze, with the "treasure" in the lower right. The project was run in python with Keras, and the starting and ending grids can be seen below. For more information about what this problem entails check out<a href="https://gotensor.com/2019/10/02/q-learning-an-introduction-through-a-simple-table-based-implementation-with-learning-rate-discount-factor-and-exploration/" target="_blank"> this article</a> about it. My solution can be found in the link above.</p>
 <table>
     <tr>
         <th>Start</th>
@@ -52,12 +52,10 @@ In order to run the projects above (and any others here in the repo) you will ne
   In addition to the above coding projects there were a variety of written assignments and "white paper" projects to submit. You can find them <a href="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/tree/main/writeups" target="_blank"> in this folder </a>, along with some information about the requirements for each.
 </p>
 
-<p>
-  Feel free check out my entire <a href="https://www.youtube.com/channel/UCGtp8PRHgPCQHYoSxbMST8A" target="_blank">YouTube channel</a> for more videos about coding projects I've done.</p>
-<p>Also, please check out my <a href="http://artllj.com" target="_blank">Personal Website</a> for more information about me, and my <a href="https://www.linkedin.com/in/lorenarms95/" target="_blank">LinkedIn</a> to get additional information. </p>
+<p>Check out my <a href="https://www.youtube.com/channel/UCGtp8PRHgPCQHYoSxbMST8A" target="_blank">YouTube channel</a> for more videos about coding projects I've done.</p>
+<p>Also, check out my <a href="http://artllj.com" target="_blank">Personal Website</a> for more information about me, and my <a href="https://www.linkedin.com/in/lorenarms95/" target="_blank">LinkedIn</a> to see if I'd be a good fit for your team. </p>
 <h3>Thanks for stopping by!</h3>
-<img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/profile.png" atl="[picture of me]" style="width:100px;height:100px;">
+<img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/profile.png" atl="[picture of me]" style="width:100px;">
 <p>much love
 -L
 </p>
-
