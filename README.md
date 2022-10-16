@@ -24,6 +24,7 @@ This course covers the following competencies, which represent the knowledge and
 <hr>
 
 <h3>My Projects</h3>
+<h4>Cartpole</h4>
   <p>You can find all of my projects in the<a href="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS" target="_blank"> projects folder</a>. 
   Some of my favorite projects are the <a href="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/tree/main/Cartpole" target="_blank"> cartpole problem project</a> and the <a href="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/tree/main/TreasureHuntGame/TreasureHuntGame" target="_blank"> pirate treasure hunt</a> project.
 </p>
@@ -31,7 +32,18 @@ This course covers the following competencies, which represent the knowledge and
 <div>
     <img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/solved.png" atl="[start]" style="width:200px;height:200px;">
 </div>
-<p>The pirate treasure hunt game was a fun project to work on. This involved developing a Q-learning algorithm with a neural network to find the shortest path to the "treasure". The "pirate" agent starts at the upper left corner of the maze, with the "treasure" in the lower right. The project was run in python with Keras, and the starting and ending grids can be seen below. For more information about what this problem entails check out<a href="https://gotensor.com/2019/10/02/q-learning-an-introduction-through-a-simple-table-based-implementation-with-learning-rate-discount-factor-and-exploration/" target="_blank"> this article</a> about it. My solution can be found in the link above.</p>
+<h4>Pirate Treasure Hunt</h4>
+<p>The pirate treasure hunt game was a fun project to work on. This involved developing a Deep Q-Learning algorithm with a two neural networks to find a path to the "treasure". The "pirate" agent starts at the upper left corner of the maze, with the "treasure" in the lower right. The DQN approximates the values of the Q-Table (as opposed to a standard Q-Table populated manually). The pirate agent uses these values to make informed decisions about the best direction to take to solve the maze.
+</p>
+
+<p>
+  The maze to solve is defined by the following matrix. A '0' indicates a space that the agent cannot move to.
+</p>
+<img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/matrix_maze.png" alt="[matrix]" style="width:400px;">
+
+<p>
+The project was run in python with Keras, and the starting and ending grids can be seen below. For more information about what this problem entails check out<a href="https://gotensor.com/2019/10/02/q-learning-an-introduction-through-a-simple-table-based-implementation-with-learning-rate-discount-factor-and-exploration/" target="_blank"> this article</a> about it. My solution can be found in the link above.</p>
+
 <table>
     <tr>
         <th>Start</th>
@@ -42,7 +54,31 @@ This course covers the following competencies, which represent the knowledge and
         <td><img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/finish.png" atl="[finish]" style="width:200px;height:200px;"></td>
     </tr>
 </table>
+<p>
+  As can be seen below, the agent solves the maze in approximately 13 minutes...
 </p>
+<table>
+  <tr>
+    <th>Run Time to Finding a Solution</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/run_detes.png" alt="[run deets]" style="width:400px;"></td>
+  </tr>
+ </table>
+
+<p>
+What is most interesting about this particular project is that, due to the DQN employed to solve the maze, the end solutions tend to vary to some degree in the path that the agent takes to get to the goal. The DQN allows some exploration, with an exploitation / exploration ratio of 0.9 to 0.1. The maze does not have a wide variety of solutions to find, but there is some variance when allowing the agent to solve through some exploring (the variable "epsilon" represents the exploration factor in this project).   
+</p>
+<table>
+  <tr>
+    <th>Solution 1</th>
+    <th>Solution 2</th>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/alt_finish.png" atl="[start]" style="width:200px;height:200px;"></td>
+    <td><img src="https://github.com/lorenarms/SNHU_CS_370_Emerging_Trends_in_CS/blob/main/images/finish.png" atl="[finish]" style="width:200px;height:200px;"></td>
+  </tr>
+</table>
 
 <p>
 In order to run the projects above (and any others here in the repo) you will need Python installed on your machine, as well as Jupyter Notebooks. There are a variety of other libraries that you'll want to get as well (such as matplotlib, Keras, Tensorflow, numpy, and others), but once you have JN installed and attempt to run a project, you will be error-ed out with a message of which library you need. Just download and install the appropriate files using pip and you should be good to go!
